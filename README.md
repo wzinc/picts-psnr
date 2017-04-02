@@ -2,8 +2,8 @@
 PICTS PSNR Utility
 
 To build (cmake):
-cmake .
-make
+`cmake .
+make`
 
 To run:
-$ ./picts-psnr <file 1> <file 2>
+`$ ./picts-psnr <file 1> <file 2>`
