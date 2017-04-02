@@ -4,6 +4,7 @@ PICTS PSNR Utility
 To build (cmake):
 
 `cmake .
+
 make`
 
 To run:
