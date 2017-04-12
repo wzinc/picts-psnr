@@ -24,8 +24,9 @@ int main (int argc, char** argv)
 			resize(image2, image2, image1.size(), 0, 0, INTER_LINEAR);
 	}
 	
-	cout << "PSNR: " << getPSNR(image1, image2) << endl;
-	cout << "MSSIM: " << getMSSIM(image1, image2) << endl;
+    cout << argv[1] << "\t" << argv[2] << "\t" << getPSNR(image1, image2) << endl;
+	// cout << "PSNR: " << getPSNR(image1, image2) << endl;
+	// cout << "MSSIM: " << getMSSIM(image1, image2) << endl;
 
 	return 0;
 }
